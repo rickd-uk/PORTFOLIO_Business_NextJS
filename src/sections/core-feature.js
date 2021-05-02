@@ -31,7 +31,7 @@ export default function CoreFeature() {
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt='Thumbnail' />
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt='Shape' />
+            <Image src={shapePattern} alt='shape' />
           </Box>
         </Box>
       </Container>
