@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import Rating from 'components/rating';
-import ButtonGroup from 'components/button-group';
-import Carousel from 'react-multi-carousel';
+import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui'
+import SectionHeader from 'components/section-header'
+import Rating from 'components/rating'
+import ButtonGroup from 'components/button-group'
+import Carousel from 'react-multi-carousel'
 
-import Avatar1 from 'assets/testimonial/avatar1.png';
-import Avatar2 from 'assets/testimonial/avatar2.png';
-import Avatar3 from 'assets/testimonial/avatar3.png';
-import Avatar4 from 'assets/testimonial/avatar4.png';
+import Avatar1 from 'assets/testimonial/avatar1.png'
+import Avatar2 from 'assets/testimonial/avatar2.png'
+import Avatar3 from 'assets/testimonial/avatar3.png'
+import Avatar4 from 'assets/testimonial/avatar4.png'
 
 const data = [
   {
@@ -51,7 +51,7 @@ const data = [
     designation: '@denny.hil',
     review: 4,
   },
-];
+]
 
 const responsive = {
   desktop: {
@@ -74,35 +74,33 @@ const responsive = {
     items: 1,
     slidesToSlide: 1, // optional, default to 1.
   },
-};
+}
 
 const carouselParams = {
-  additionalTransfrom:0,
-  arrows:false,
-  autoPlaySpeed:3000,
-  centerMode:false,
-  className:"",
-  containerClass:"carousel-container",
-  customButtonGroup:<ButtonGroup />,
-  dotListClass:"",
+  additionalTransfrom: 0,
+  arrows: false,
+  autoPlaySpeed: 3000,
+  centerMode: false,
+  className: '',
+  containerClass: 'carousel-container',
+  customButtonGroup: <ButtonGroup />,
+  dotListClass: '',
   draggable: true,
-  focusOnSelect:false,
-  infinite:true,
-  itemClass:"",
+  focusOnSelect: false,
+  infinite: true,
+  itemClass: '',
   keyBoardControl: true,
-  minimumTouchDrag:80,
+  minimumTouchDrag: 80,
   renderButtonGroupOutside: true,
-  renderDotsOutside:false,
-  responsive:responsive,
-  showDots:false,
-  sliderClass:"",
-  slidesToSlide:1,
+  renderDotsOutside: false,
+  responsive: responsive,
+  showDots: false,
+  sliderClass: '',
+  slidesToSlide: 1,
 }
 
 export default function TestimonialCard() {
-  return (
-   <h1>Testimonial Card</h1>
-  );
+  return <h1>Testimonial Card</h1>
 }
 
 const styles = {
@@ -228,4 +226,4 @@ const styles = {
     fontSize: 1,
     lineHeight: 1.4,
   },
-};
+}
