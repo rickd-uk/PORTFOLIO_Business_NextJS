@@ -1,5 +1,5 @@
 export default {
-  menuItem: [
+  menuItems: [
     {
       path: '/',
       label: 'Home',
@@ -21,4 +21,4 @@ export default {
       label: 'Contact',
     },
   ],
-};
+}
